@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Tutorial - Working with JSON</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Javascript Todo App</h1>
+        
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <ul id="todo-list">
+                    <!-- <li> Sample Todo list Item</li> -->
+                </ul>
+            </div>
+            <div class="col-md-4">
+               [Add new]
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+
+    <script>
+        var json_data = [
+            {
+                'userid': 1,
+                'id': 1,
+                'title': 'delectu aut autem',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 2,
+                'title': 'laboro aut autem',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 3,
+                'title': 'start mesing aut autem',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 4,
+                'title': 'what that hell',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 5,
+                'title': 'salseando el find the semana',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 6,
+                'title': 'creativity is what matters',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 7,
+                'title': 'I am invensible!',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 8,
+                'title': 'walking on the street.',
+                'completed': false
+            },
+            {
+                'userid': 1,
+                'id': 9,
+                'title': 'working hard to see the long term venefit.',
+                'completed': false
+            },
+
+        ];
+
+        var myList = document.getElementById('todo-list');
+        json_data.forEach(element => {
+            var listItem = document.createElement('li');
+            listItem.appendChild(
+                document.createTextNode(element.title)
+            );
+            myList.appendChild(listItem);
+        })
+    </script>
+</html>
