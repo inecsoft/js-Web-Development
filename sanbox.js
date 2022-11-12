@@ -1,19 +1,29 @@
-const getTodos = () => {
-    const url = 'https://jsonplaceholder.typicode.com/todos';
+const resource = 'todos.json';
+
+const getTodos = (resource, callback) => {
+    // const resource = 'https://jsonplaceholder.typicode.com/todos';
 
     const req = new XMLHttpRequest();
 
     req.addEventListener('readystatechange', ()  =>  {
         if ( req.readyState === 4 && req.status === 200 ){
-            console.log(req, req.responseText);
+            const data = JSON.parse(req.responseText);
+            callback( undefined, data);
         } else if (req.readyState === 4) {
-            console.log('could not fetch the data');
+            callback('could not fetch the data', undefined );
         }
     });
 
-    req.open('GET', url);
+    req.open('GET', resource);
     req.send();
     
 }
 
-getTodos();
+getTodos(resource, (err, data) => {
+    console.log('callback fired');
+    if ( err) {
+        console.log(err);
+    } else if (data) {
+        console.log(data); 
+    }
+});
