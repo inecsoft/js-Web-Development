@@ -1,4 +1,4 @@
-const resource = 'todos.json';
+const resource = '';
 
 const getTodos = (resource) => {
     // const resource = 'https://jsonplaceholder.typicode.com/todos';
@@ -21,31 +21,18 @@ const getTodos = (resource) => {
     });
 };
 
-getTodos(resource).then(data => {
-    console.log('promise resolved:', data);
+getTodos('todos/Ivan.json').then(data => {
+    console.log('promise resolved Ivan:', data);
+    return getTodos('todos/shaun.json');
+}).then(data => {
+    console.log( 'promise resolved shaun:', data);
+    return getTodos('todos/Mario.json');
+}).then(data => {
+    console.log('promise resolved Mario:', data);
+    return getTodos('todos/Luigi.json');
+}).then(data => {
+    console.log('promise resolved Luigi:', data);
 }).catch(err => {
     console.log('promise rejected:', err);
 });
 
-// promises
-
-// const getSomething = () => {
-//     return new Promise((resolve, reject) => {
-//         //fetch something
-//         resolve('some data');
-//         // reject('some error');
-//     });
-// };
-
-// getSomething().then((data) => {
-//     console.log(data);
-// }, (err) => {
-//     console.log(err);
-// });
-
-// another and better way to handle error
-// getSomething().then((data) => {
-//     console.log(data);
-// }).catch(err => {
-//     console.log(err);
-// });
