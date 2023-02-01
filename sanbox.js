@@ -55,21 +55,24 @@
 //     },
 
 // ];
+
 var json_data = JSON.parse( localStorage.getItem('json_data'));
 var myList = document.getElementById("todo-list");
 
-json_data.forEach(element => {
-    newTodo(element.title);
-});
+if (json_data) {
+    json_data.forEach(element => {
+        newTodo(element.title);
+    });
+}
+
 
 registerEventListeners();
-function  {
+function  registerEventListeners () {
     var closeButtons = document.getElementsByClassName("delete");
     for ( var i = 0; i < closeButtons.length; i++) {
         closeButtons[i].addEventListener('click', deleteTodo, false);
     }  
 }
-
 
 function deleteTodo() {
     var li = this.parentElement;
@@ -92,5 +95,25 @@ function newTodo() {
     listItem.appendChild(deleteLink);
     myList.appendChild(listItem);
     registerEventListeners();
+    console.log("new todo added");
+    console.log(listItem);
     
+}
+
+function storeTodoLocal(todoTitle) {
+    // retrive and parse existing json form localstorage
+    var json_temp = JSON.parse( localStorage.getItem('json_data'));
+    if (!json_temp) {
+        json_temp = [];
+    }
+    // add new todo object to Json
+    json_temp.push({
+        "title": todoTitle,
+        "completed": false
+    });
+    //log updated json to console
+    console.log(json_temp);
+    //stringigy update json and store back in localStorage
+    localStorage.setItem('json_data',
+    JSON.stringigy(json_temp));
 }
