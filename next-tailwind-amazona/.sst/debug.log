@@ -22,3 +22,6 @@
 2023-05-15T20:56:10.862Z +600253ms [debug] IoT closed
 2023-05-15T20:56:11.862Z  +1000ms [debug] IoT reconnected
 2023-05-15T20:56:12.225Z   +363ms [debug] IoT connected
+2023-05-15T21:06:12.478Z +600253ms [debug] IoT closed
+2023-05-15T21:06:13.478Z  +1000ms [debug] IoT reconnected
+2023-05-15T21:06:13.850Z   +372ms [debug] IoT connected

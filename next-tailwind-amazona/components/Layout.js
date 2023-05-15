@@ -21,12 +21,16 @@ export default function Layout({ title, children }) {
               Inecsoft
             </Link>
             <div>
-              <Link href='/cart' className='p-2'>
-                Cart
-              </Link>
-              <Link href='/login' className='p-2'>
-                login
-              </Link>
+              <div>
+                <Link href='/cart' className='p-2'>
+                  Cart
+                </Link>
+              </div>
+              <div>
+                <Link href='/login' className='p-2'>
+                  login
+                </Link>
+              </div>
             </div>
           </nav>
         </header>
