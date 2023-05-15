@@ -1,0 +1,62 @@
+{
+  "version": "31.0.0",
+  "files": {
+    "822ec78a394d42d9d525adc0df44dfdd998f357960e122cb75dfea0194ee1d8b": {
+      "source": {
+        "path": "asset.822ec78a394d42d9d525adc0df44dfdd998f357960e122cb75dfea0194ee1d8b",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "911328334795-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-911328334795-us-east-1",
+          "objectKey": "822ec78a394d42d9d525adc0df44dfdd998f357960e122cb75dfea0194ee1d8b.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::911328334795:role/cdk-hnb659fds-file-publishing-role-911328334795-us-east-1"
+        }
+      }
+    },
+    "d6bf58c6b652439133af13d6dbf31be3dbc90231659fa9709c2127c75a379ebc": {
+      "source": {
+        "path": "asset.d6bf58c6b652439133af13d6dbf31be3dbc90231659fa9709c2127c75a379ebc.zip",
+        "packaging": "file"
+      },
+      "destinations": {
+        "911328334795-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-911328334795-us-east-1",
+          "objectKey": "d6bf58c6b652439133af13d6dbf31be3dbc90231659fa9709c2127c75a379ebc.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::911328334795:role/cdk-hnb659fds-file-publishing-role-911328334795-us-east-1"
+        }
+      }
+    },
+    "5fa1330271b8967d9254ba2d4a07144f8acefe8b77e6d6bba38261373a50d5f8": {
+      "source": {
+        "path": "asset.5fa1330271b8967d9254ba2d4a07144f8acefe8b77e6d6bba38261373a50d5f8",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "911328334795-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-911328334795-us-east-1",
+          "objectKey": "5fa1330271b8967d9254ba2d4a07144f8acefe8b77e6d6bba38261373a50d5f8.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::911328334795:role/cdk-hnb659fds-file-publishing-role-911328334795-us-east-1"
+        }
+      }
+    },
+    "0cd018c845990658695094f2920649391093a05ef9094daa6252bbf148c00d6b": {
+      "source": {
+        "path": "iarteaga-next-tailwind-amazona-Site.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "911328334795-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-911328334795-us-east-1",
+          "objectKey": "0cd018c845990658695094f2920649391093a05ef9094daa6252bbf148c00d6b.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::911328334795:role/cdk-hnb659fds-file-publishing-role-911328334795-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
