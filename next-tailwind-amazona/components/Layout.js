@@ -34,8 +34,12 @@ export default function Layout({ title, children }) {
             </div>
           </nav>
         </header>
+
         <main className='container m-auto mt-4 px-4'>{children}</main>
-        <footer>footer</footer>
+
+        <footer className='flex h-10 justify-center items-centre shadow-inner'>
+          <p>Copyright 2023 Inecsoft.co.uk</p>
+        </footer>
       </div>
     </>
   );

@@ -1,27 +1,15 @@
-2023-05-15T20:26:05.727Z  +2828ms [debug] Config loaded {"version":"2.8.21","cdkVersion":"2.72.1","constructsVersion":"10.1.156","config":{"name":"next-tailwind-amazona","profile":"ivan-arteaga-dev","region":"us-east-1","stage":"iarteaga","ssmPrefix":"/sst/next-tailwind-amazona/iarteaga/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":538,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true},{"path":"<runtime>","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1684182363306.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":521}},"bytes":2311}}},"paths":{"config":"/home/iarteaga/js-Web-Development/next-tailwind-amazona/sst.config.ts","root":"/home/iarteaga/js-Web-Development/next-tailwind-amazona","out":"/home/iarteaga/js-Web-Development/next-tailwind-amazona/.sst","artifacts":"/home/iarteaga/js-Web-Development/next-tailwind-amazona/.sst/artifacts"}}
-2023-05-15T20:26:05.871Z   +144ms [debug] Using AWS profile ivan-arteaga-dev
-2023-05-15T20:26:05.897Z    +26ms [debug] Created AWS client IoTClient
-2023-05-15T20:26:05.897Z     +0ms [debug] Getting IoT endpoint
-2023-05-15T20:26:06.329Z   +432ms [debug] Using IoT endpoint: az1mivdj01kkp-ats.iot.us-east-1.amazonaws.com
-2023-05-15T20:26:06.329Z     +0ms [debug] Initializing bootstrap context
-2023-05-15T20:26:06.330Z     +1ms [debug] Created AWS client CloudFormationClient
-2023-05-15T20:26:06.707Z   +377ms [debug] Loaded bootstrap status
-2023-05-15T20:26:06.707Z     +0ms [debug] Bootstrap context initialized {"version":"7","bucket":"sstbootstrap-useast124d14e4b-11mn1f5mqldsm"}
-2023-05-15T20:26:06.709Z     +2ms [debug] Created AWS client S3Client
-2023-05-15T20:26:06.763Z    +54ms [debug] Fetching all metadata
-2023-05-15T20:26:07.117Z   +354ms [debug] IoT connected
-2023-05-15T20:26:07.377Z   +260ms [debug] Fetched metadata from 1 stacks
-2023-05-15T20:26:07.379Z     +2ms [debug] Created AWS client LambdaClient
-2023-05-15T20:26:07.893Z   +514ms [debug] Created AWS client STSClient
-2023-05-15T20:36:07.371Z +599478ms [debug] IoT closed
-2023-05-15T20:36:08.370Z   +999ms [debug] IoT reconnected
-2023-05-15T20:36:08.746Z   +376ms [debug] IoT connected
-2023-05-15T20:46:08.999Z +600253ms [debug] IoT closed
-2023-05-15T20:46:09.999Z  +1000ms [debug] IoT reconnected
-2023-05-15T20:46:10.609Z   +610ms [debug] IoT connected
-2023-05-15T20:56:10.862Z +600253ms [debug] IoT closed
-2023-05-15T20:56:11.862Z  +1000ms [debug] IoT reconnected
-2023-05-15T20:56:12.225Z   +363ms [debug] IoT connected
-2023-05-15T21:06:12.478Z +600253ms [debug] IoT closed
-2023-05-15T21:06:13.478Z  +1000ms [debug] IoT reconnected
-2023-05-15T21:06:13.850Z   +372ms [debug] IoT connected
+2023-05-16T15:00:51.514Z  +2824ms [debug] Config loaded {"version":"2.8.21","cdkVersion":"2.72.1","constructsVersion":"10.1.156","config":{"name":"next-tailwind-amazona","profile":"ivan-arteaga-dev","region":"us-east-1","stage":"iarteaga","ssmPrefix":"/sst/next-tailwind-amazona/iarteaga/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":538,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true},{"path":"<runtime>","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1684249249098.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":521}},"bytes":2311}}},"paths":{"config":"/home/iarteaga/js-Web-Development/next-tailwind-amazona/sst.config.ts","root":"/home/iarteaga/js-Web-Development/next-tailwind-amazona","out":"/home/iarteaga/js-Web-Development/next-tailwind-amazona/.sst","artifacts":"/home/iarteaga/js-Web-Development/next-tailwind-amazona/.sst/artifacts"}}
+2023-05-16T15:00:51.660Z   +146ms [debug] Using AWS profile ivan-arteaga-dev
+2023-05-16T15:00:51.687Z    +27ms [debug] Created AWS client IoTClient
+2023-05-16T15:00:51.687Z     +0ms [debug] Getting IoT endpoint
+2023-05-16T15:00:52.056Z   +369ms [debug] Using IoT endpoint: az1mivdj01kkp-ats.iot.us-east-1.amazonaws.com
+2023-05-16T15:00:52.056Z     +0ms [debug] Initializing bootstrap context
+2023-05-16T15:00:52.057Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-05-16T15:00:52.445Z   +388ms [debug] Loaded bootstrap status
+2023-05-16T15:00:52.445Z     +0ms [debug] Bootstrap context initialized {"version":"7","bucket":"sstbootstrap-useast124d14e4b-11mn1f5mqldsm"}
+2023-05-16T15:00:52.447Z     +2ms [debug] Created AWS client S3Client
+2023-05-16T15:00:52.502Z    +55ms [debug] Fetching all metadata
+2023-05-16T15:00:52.912Z   +410ms [debug] IoT connected
+2023-05-16T15:00:52.983Z    +71ms [debug] Fetched metadata from 1 stacks
+2023-05-16T15:00:52.986Z     +3ms [debug] Created AWS client LambdaClient
+2023-05-16T15:00:53.478Z   +492ms [debug] Created AWS client STSClient

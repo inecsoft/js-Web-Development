@@ -38,3 +38,12 @@
 	npx sst remove
 	npx sst remove --stage prod
 ```
+
+### **VS-code extentions**
+
+```
+	prettier
+	esling
+	ES7 React/Redux/GraphQL/React-Native snippets
+	Tailwind CSS IntelliSense
+```
